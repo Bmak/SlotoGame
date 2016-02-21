@@ -36,8 +36,8 @@ package view
 			_stopBtn.setBtnState(BaseButton.STATE_LOCK);
 			
 			_drumPanel = new DrumPanel(_model);
-			_drumPanel.x = (Main.WIDTH - DrumPanel.DRUM_WIDTH) / 2;
-			_drumPanel.y = (Main.HEIGHT - DrumPanel.DRUM_HEIGHT) / 2;
+			_drumPanel.x = (Main.WIDTH - AppModel.DRUM_WIDTH) / 2;
+			_drumPanel.y = (Main.HEIGHT - AppModel.DRUM_HEIGHT) / 2;
 			this.addChild(_drumPanel);
 			
 			_startBtn.addEventListener(MouseEvent.CLICK, onStartRollDrum);

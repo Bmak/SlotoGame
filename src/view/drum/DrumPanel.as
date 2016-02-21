@@ -10,9 +10,6 @@ package view.drum
 	 */
 	public class DrumPanel extends Sprite
 	{
-		public static const DRUM_WIDTH:int = 600;
-		public static const DRUM_HEIGHT:int = 360;
-		
 		private var _model:AppModel;
 		
 		private var _box:Sprite;
@@ -54,7 +51,7 @@ package view.drum
 			var result:Sprite = new Sprite;
 			result.graphics.lineStyle(5);
 			result.graphics.beginFill(0xE5E5E5);
-			result.graphics.drawRect(0, 0, DRUM_WIDTH, DRUM_HEIGHT);
+			result.graphics.drawRect(0, 0, AppModel.DRUM_WIDTH, AppModel.DRUM_HEIGHT);
 			result.graphics.endFill();
 			
 			return result;

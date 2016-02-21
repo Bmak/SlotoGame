@@ -7,6 +7,12 @@ package model
 	 */
 	public class AppModel 
 	{
+		/** Ширина барабана */
+		public static const DRUM_WIDTH:int = 600;
+		/** Высота барабана */
+		public static const DRUM_HEIGHT:int = 360;
+		
+		
 		/** Состояние - Барабан стоит в ожидании */
 		public static const DRUM_SLEEP:int = 0;
 		/** Состояние - Барабан вращается в данный момент */
